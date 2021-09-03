@@ -1,0 +1,127 @@
+/* Mobile */
+@media (max-width: 740px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: grey;
+    }
+
+    #nav .subnav a {
+        color: white;
+        padding: 5px 42px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav >li:hover >a {
+        background-color: rgb(226, 80, 80);
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header .mobile-btn {
+        display: block;
+    }
+
+    #header .search-button {
+        display: none;
+    }
+
+    #content .member-item {
+        margin-top: 34px;
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .place-item {
+        width: 100%;
+        padding: 8px 8px;
+    }
+
+    .place-buy-btn {
+        width: 100%;
+    }
+
+    .col-half {
+        width: 100%;
+    }
+
+    .contact-infor {
+        margin: 32px 0;
+        line-height: 1.8;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+
+    }
+
+    .row-email {
+        margin-top: 8px;
+    }
+
+    .form-submit-btn {
+        width: 100%;
+    }
+
+}
+
+/* Tablet & mobile */
+@media (max-width: 1023px) {
+    .form-submit-btn,
+    .place-buy-btn {
+        padding: 16px 16px;
+    }
+
+    .form-control {
+        padding: 15px;
+    }
+
+    .social-list {
+        font-size: 48px;
+    }
+
+    #footer .social-list a {
+        padding: 0 8px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+    .contact-infor {
+        line-height: 2;
+    }
+}
+
+/* PC */
+@media (min-width:1024px) {
+
+}

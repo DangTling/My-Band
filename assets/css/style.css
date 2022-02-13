@@ -114,12 +114,7 @@ html {
     
 }
 
-#slider {
-    position: relative;
-    padding-top: 50%;
-    margin-top: 46px;
-    background: url('/assets/css/img/slider/3027608.jpg') top center / cover no-repeat;
-}
+
 
 #slider .text-content {
     position:absolute;
